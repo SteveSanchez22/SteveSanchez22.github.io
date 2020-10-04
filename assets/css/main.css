@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 /*
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -99,11 +97,14 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #D8D8D8;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2162,7 +2163,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
@@ -2185,7 +2186,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.125);
+		border: solid 2px rgba(0, 0, 0, 0.125);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3255,7 +3256,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-		background: rgba(46, 49, 65, 0.8);
+		background: rgba(218, 219, 228, 0.8);
 		cursor: default;
 		height: 100%;
 		left: 0;
@@ -3266,7 +3267,7 @@ input, select, textarea {
 		visibility: hidden;
 		width: 100%;
 	}
-
+/* Style for hamburger onced clicked */
 		#menu .inner {
 			padding: 2.5em 1.5em 0.5em 1.5em ;
 			-moz-transform: translateY(0.5em);
@@ -3278,7 +3279,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #9ca1b4;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3375,7 +3376,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 370px 200px 370px 200px;
 	}
 
 		#banner .inner {
@@ -3398,7 +3399,7 @@ input, select, textarea {
 
 			#banner .logo .icon {
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(233, 3, 3, 0.76);
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
@@ -3459,13 +3460,15 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+/* top banner bit */
 			#banner {
-				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
+				padding: 7em 0 20em 0 ;
+				background-color: rgb(189, 15, 15);
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3574,8 +3577,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3590,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3607,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -3613,9 +3621,9 @@ input, select, textarea {
 			}
 
 	}
-
+/* social section */
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #DC7D1E ;
 		margin: 6.5em 0;
 		position: relative;
 	}
@@ -3677,7 +3685,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: rgb(30, 220, 71);
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3685,7 +3693,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2:before {
-				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+				box-shadow: inset 0 -1px 0 0 #D8D8D8, 0 1px 0 0 #D8D8D8;
 			}
 
 			.wrapper.style2:after {
@@ -4060,10 +4068,12 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-color: #ffffff;
+			background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg.jpg");
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
@@ -4142,3 +4152,190 @@ input, select, textarea {
 		}
 
 	}
+
+
+	/* Custom CSS */
+
+	.typewriter h2 {
+		overflow: hidden; /* Ensures the content is not revealed until the animation */
+		border-right: .15em solid orange; /* The typwriter cursor */
+		white-space: nowrap; /* Keeps the content on a single line */
+		margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+		animation: 
+		  typing 3.5s steps(40, end),
+		  blink-caret .75s step-end infinite;
+	  }
+	  
+	  /* The typing effect */
+	  @keyframes typing {
+		from { width: 0 }
+		to { width: 100% }
+	  }
+	  
+	  /* The typewriter cursor effect */
+	  @keyframes blink-caret {
+		from, to { border-color: transparent }
+		50% { border-color: orange; }
+	  }
+
+
+	  /* ----------------------------  Time Line ------------------------------------- */
+
+	  body{
+		padding:0;
+		margin:0;
+		font-family: 'Montserrat', sans-serif;
+	  }
+	  h1{
+		font-size:60px;
+		text-align:center;
+	  }
+	  .timeline{
+		position:relative;
+		margin:50px auto;
+		padding:40px 0;
+		width:1000px;
+		box-sizing:border-box;
+	  }
+	  .timeline:before{
+		content:'';
+		position:absolute;
+		left:50%;
+		width:2px;
+		height:100%;
+		background:#c5c5c5;
+	  }
+	  .timeline ul{
+		padding:0;
+		margin:0;
+	  }
+	  .timeline ul li{
+		list-style:none;
+		position:relative;
+		width:50%;
+		padding:20px 40px;
+		box-sizing:border-box;
+	  }
+	  .timeline ul li:nth-child(odd){
+		float:left;
+		text-align:right;
+		clear:both;
+	  }
+	  .timeline ul li:nth-child(even){
+		float:right;
+		text-align:left;
+		clear:both;
+	  }
+	  .content{
+		padding-bottom:20px;
+	  }
+	  /* Time Line bullet point - ODD */
+	  .timeline ul li:nth-child(odd):before
+	  {
+		content:'';
+		position:absolute;
+		width:10px;
+		height:10px;
+		top:24px;
+		right:-6px;
+		background:rgb(0, 0, 0);
+		border-radius:50%;
+		box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+	  }
+	  
+	  /* Time Line bullet point - Even */
+	  .timeline ul li:nth-child(even):before
+	  {
+		content:'';
+		position:absolute;
+		width:10px;
+		height:10px;
+		top:24px;
+		left:-4px;
+		background:rgb(0, 0, 0);
+		border-radius:50%;
+		box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+	  }
+	  /* Time Line Subheading */
+	  .timeline ul li h3{
+		padding:0;
+		margin:0;
+		color:rgb(0, 0, 0);
+		font-weight:600;
+	  }
+	  .timeline ul li p{
+		margin:10px 0 0;
+		padding:0;
+	  }
+	  .timeline ul li .time h4{
+		margin:0;
+		padding:0;
+		font-size:14px;
+	  }
+	  /* Bubble ODD */
+	  .timeline ul li:nth-child(odd) .time
+	  {
+		position:absolute;
+		top:12px;
+		right:-165px;
+		margin:0;
+		padding:8px 16px;
+		background:rgb(161, 161, 161);
+		color:#fff;
+		border-radius:18px;
+		box-shadow:0 0 0 3px rgba(161, 161, 161);
+	  }
+	  
+	  /* Bubble EVEN */
+	  .timeline ul li:nth-child(even) .time
+	  {
+		position:absolute;
+		top:12px;
+		left:-165px;
+		margin:0;
+		padding:8px 16px;
+		background:rgb(161, 161, 161);
+		color:#fff;
+		border-radius:18px;
+		box-shadow:0 0 0 3px rgba(161, 161, 161);
+	  }
+	  @media(max-width:1000px)
+	  {
+		.timeline{
+		  width:100%;
+		}
+	  }
+	  @media(max-width:767px){
+		.timeline{
+		  width:100%;
+		  padding-bottom:0;
+		}
+		h1{
+		  font-size:40px;
+		  text-align:center;
+		}
+		.timeline:before{
+		  left:20px;
+		  height:100%;
+		}
+		.timeline ul li:nth-child(odd),
+		.timeline ul li:nth-child(even)
+		{
+		  width:100%;
+		  text-align:left;
+		  padding-left:50px;
+		  padding-bottom:50px;
+		}
+		.timeline ul li:nth-child(odd):before,
+		.timeline ul li:nth-child(even):before
+		{
+		  top:-18px;
+		  left:16px;
+		}
+		.timeline ul li:nth-child(odd) .time,
+		.timeline ul li:nth-child(even) .time{
+		  top:-30px;
+		  left:50px;
+		  right:inherit;
+		}
+	  }
