@@ -1,8 +1,8 @@
 # Note by Steve Alejandro Sánchez
 
-CODE NAME : NULLA
+CODE NAME : Ab ovo
 
-Date : 10 Sept 2021
+Date Updated : 28 Sept 2021
 
 Intro to a line of website evolutions. The naming of each iteration of the website is taken by the Roman Numerals. 
 
@@ -11,8 +11,8 @@ Intro to a line of website evolutions. The naming of each iteration of the websi
 
 | Version   	| Date          | Notes                 |      
 |---	        |---	        |---	                |
-| NULLA         | 10 Sept 21    | Coming Soon  	        |        
-|             	|   	        |   	                |        
+| Ab ovo        | 10 Sept 21    | Coming Soon  	        |        
+| Ab ovo .5     | 28 Sept 21    | CountDown Version     |        
 |   	        |   	        |   	                |        
 
-<!-- v : NULLA .5 | Date : TBC  |  Notes : CountDown to I website deployment (AKA Bootstrap) -->
+<!-- Version I coming soon  -->
